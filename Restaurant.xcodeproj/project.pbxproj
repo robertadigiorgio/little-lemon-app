@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9401EB62B322F5F004AC989 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EB52B322F5F004AC989 /* Styles.swift */; };
+		A9401EB82B322F7F004AC989 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EB72B322F7F004AC989 /* FetchedObjects.swift */; };
+		A9401EBB2B3230D9004AC989 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EBA2B3230D9004AC989 /* MenuItem.swift */; };
+		A9401EBD2B3230F5004AC989 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EBC2B3230F5004AC989 /* MenuList.swift */; };
+		A9401ECA2B323179004AC989 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC12B323177004AC989 /* FoodItem.swift */; };
+		A9401ECB2B323179004AC989 /* RestaurantMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC22B323178004AC989 /* RestaurantMenu.swift */; };
+		A9401ECC2B323179004AC989 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC32B323178004AC989 /* UserProfile.swift */; };
+		A9401ECD2B323179004AC989 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC42B323178004AC989 /* Hero.swift */; };
+		A9401ECE2B323179004AC989 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC52B323178004AC989 /* Home.swift */; };
+		A9401ECF2B323179004AC989 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC62B323178004AC989 /* MainScreen.swift */; };
+		A9401ED02B323179004AC989 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC72B323178004AC989 /* Header.swift */; };
+		A9401ED12B323179004AC989 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC82B323179004AC989 /* Onboarding.swift */; };
+		A9401ED22B323179004AC989 /* DetailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401EC92B323179004AC989 /* DetailItem.swift */; };
+		A9401ED42B3231E5004AC989 /* viewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401ED32B3231E5004AC989 /* viewModel.swift */; };
+		A9401ED62B32DA5E004AC989 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9401ED52B32DA5E004AC989 /* CheckboxStyle.swift */; };
 		A9801ED92B1FA297000691F2 /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9801ED82B1FA297000691F2 /* RestaurantApp.swift */; };
-		A9801EDB2B1FA297000691F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9801EDA2B1FA297000691F2 /* ContentView.swift */; };
 		A9801EDD2B1FA299000691F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9801EDC2B1FA299000691F2 /* Assets.xcassets */; };
 		A9801EE02B1FA299000691F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9801EDF2B1FA299000691F2 /* Preview Assets.xcassets */; };
 		A9801EE22B1FA299000691F2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9801EE12B1FA299000691F2 /* Persistence.swift */; };
@@ -36,9 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9401EB52B322F5F004AC989 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		A9401EB72B322F7F004AC989 /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		A9401EBA2B3230D9004AC989 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		A9401EBC2B3230F5004AC989 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		A9401EC12B323177004AC989 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		A9401EC22B323178004AC989 /* RestaurantMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMenu.swift; sourceTree = "<group>"; };
+		A9401EC32B323178004AC989 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A9401EC42B323178004AC989 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		A9401EC52B323178004AC989 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A9401EC62B323178004AC989 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		A9401EC72B323178004AC989 /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		A9401EC82B323179004AC989 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		A9401EC92B323179004AC989 /* DetailItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailItem.swift; sourceTree = "<group>"; };
+		A9401ED32B3231E5004AC989 /* viewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewModel.swift; sourceTree = "<group>"; };
+		A9401ED52B32DA5E004AC989 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
 		A9801ED52B1FA297000691F2 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9801ED82B1FA297000691F2 /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
-		A9801EDA2B1FA297000691F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9801EDC2B1FA299000691F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9801EDF2B1FA299000691F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9801EE12B1FA299000691F2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -75,6 +103,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9401EB92B3230BB004AC989 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9401EBA2B3230D9004AC989 /* MenuItem.swift */,
+				A9401EBC2B3230F5004AC989 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9401EC02B323165004AC989 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A9401EC92B323179004AC989 /* DetailItem.swift */,
+				A9401EC12B323177004AC989 /* FoodItem.swift */,
+				A9401EC72B323178004AC989 /* Header.swift */,
+				A9401EC42B323178004AC989 /* Hero.swift */,
+				A9401EC52B323178004AC989 /* Home.swift */,
+				A9401EC62B323178004AC989 /* MainScreen.swift */,
+				A9401EC22B323178004AC989 /* RestaurantMenu.swift */,
+				A9401EC82B323179004AC989 /* Onboarding.swift */,
+				A9401EC32B323178004AC989 /* UserProfile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A9801ECC2B1FA297000691F2 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +151,17 @@
 		A9801ED72B1FA297000691F2 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				A9401EB92B3230BB004AC989 /* Model */,
+				A9401EB52B322F5F004AC989 /* Styles.swift */,
+				A9401ED52B32DA5E004AC989 /* CheckboxStyle.swift */,
 				A9801ED82B1FA297000691F2 /* RestaurantApp.swift */,
-				A9801EDA2B1FA297000691F2 /* ContentView.swift */,
+				A9401EC02B323165004AC989 /* Views */,
 				A9801EDC2B1FA299000691F2 /* Assets.xcassets */,
+				A9401EB72B322F7F004AC989 /* FetchedObjects.swift */,
 				A9801EE12B1FA299000691F2 /* Persistence.swift */,
 				A9801EE32B1FA299000691F2 /* Restaurant.xcdatamodeld */,
 				A9801EDE2B1FA299000691F2 /* Preview Content */,
+				A9401ED32B3231E5004AC989 /* viewModel.swift */,
 			);
 			path = Restaurant;
 			sourceTree = "<group>";
@@ -265,8 +323,22 @@
 			files = (
 				A9801EE52B1FA299000691F2 /* Restaurant.xcdatamodeld in Sources */,
 				A9801EE22B1FA299000691F2 /* Persistence.swift in Sources */,
-				A9801EDB2B1FA297000691F2 /* ContentView.swift in Sources */,
+				A9401EBD2B3230F5004AC989 /* MenuList.swift in Sources */,
+				A9401EB82B322F7F004AC989 /* FetchedObjects.swift in Sources */,
+				A9401ED62B32DA5E004AC989 /* CheckboxStyle.swift in Sources */,
+				A9401ED42B3231E5004AC989 /* viewModel.swift in Sources */,
+				A9401ECB2B323179004AC989 /* RestaurantMenu.swift in Sources */,
+				A9401ECC2B323179004AC989 /* UserProfile.swift in Sources */,
+				A9401ECE2B323179004AC989 /* Home.swift in Sources */,
+				A9401ECA2B323179004AC989 /* FoodItem.swift in Sources */,
+				A9401ECF2B323179004AC989 /* MainScreen.swift in Sources */,
+				A9401EBB2B3230D9004AC989 /* MenuItem.swift in Sources */,
+				A9401ED22B323179004AC989 /* DetailItem.swift in Sources */,
+				A9401ED02B323179004AC989 /* Header.swift in Sources */,
 				A9801ED92B1FA297000691F2 /* RestaurantApp.swift in Sources */,
+				A9401EB62B322F5F004AC989 /* Styles.swift in Sources */,
+				A9401ED12B323179004AC989 /* Onboarding.swift in Sources */,
+				A9401ECD2B323179004AC989 /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,8 +13,7 @@ struct RestaurantApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            Onboarding().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
